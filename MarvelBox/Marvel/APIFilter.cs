@@ -25,6 +25,7 @@ namespace MarvelBox.Marvel
         public APIFilter(string name, string value)
         {
             Filter = new KeyValuePair<string, string>(name, value);
+            //
         }
 
         /// <summary>
